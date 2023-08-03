@@ -1,0 +1,9 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+}
+
+/* .hoverEffect :hover {
+    color: green;
+    cursor: pointer;
+} */

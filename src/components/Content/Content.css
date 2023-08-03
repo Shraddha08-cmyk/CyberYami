@@ -1,0 +1,29 @@
+.content {
+    background: rgb(79, 175, 237);
+    background: linear-gradient(90deg, rgba(79, 175, 237, 1) 0%,
+            rgba(196, 250, 194, 0) 0%, rgba(115, 233, 120, 1) 100%,
+            rgba(33, 85, 214, 1) 100%, rgba(9, 105, 121, 1) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.content__left {
+    height: 60vh;
+    width: 50vw;
+    /* background-color: white; */
+    position: relative;
+    top: 150px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.content__right {
+    margin-left: 820px;
+}
+
+.btn__drop {
+    background-color: white;
+}
